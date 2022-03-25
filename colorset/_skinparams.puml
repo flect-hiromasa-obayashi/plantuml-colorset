@@ -1,35 +1,35 @@
 skinparam dpi 100
 skinparam shadowing false
 skinparam DefaultFontName Meiryo
-skinparam ArrowColor #LineColor
-skinparam DefaultFontColor #LineColor
+skinparam ArrowColor $LineColor
+skinparam DefaultFontColor $LineColor
 skinparam BackgroundColor transparent
 
 skinparam Activity {
-  BorderColor #LineColor
-  DiamondBorderColor #LineColor
-  BarColor #LineColor
-  StartColor #LineColor
-  StopColor #LineColor
+  BorderColor $LineColor
+  DiamondBorderColor $LineColor
+  BarColor $LineColor
+  StartColor $LineColor
+  StopColor $LineColor
   BackgroundColor $BackGroundColor
   DiamondBackgroundColor $BackGroundColor
 }
 
 skinparam Sequence {
-  BorderColor #LineColor
+  BorderColor $LineColor
   BackgroundColor $BackGroundColor
-  BoxBorderColor #LineColor
+  BoxBorderColor $LineColor
   BoxBackgroundColor $BackGroundColor
-  DividerBorderColor #LineColor
+  DividerBorderColor $LineColor
   DividerBackgroundColor $BackGroundColor
-  LifeLineBorderColor #LineColor
+  LifeLineBorderColor $LineColor
   LifeLineBackgroundColor $BackGroundColor
-  ReferenceBorderColor #LineColor
+  ReferenceBorderColor $LineColor
   ReferenceBackgroundColor $BackGroundColor
 }
 
 skinparam Actor {
-  StereotypeFontColor #LineColor
-  BorderColor #LineColor
+  StereotypeFontColor $LineColor
+  BorderColor $LineColor
   BackgroundColor $BackGroundColor
 }
