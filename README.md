@@ -14,8 +14,10 @@
 ```
 @startuml
 !define colorset https://raw.githubusercontent.com/flect-hiromasa-obayashi/plantuml-colorset/main/colorset
-!include colorset/ocean-blue.puml
+!include_many colorset/ocean-blue.puml
+!include_many colorset/_skinparams.puml
 
+Alice -> WhiteRabbit : こんにちは！
 @enduml
 ```
 
