@@ -6,7 +6,7 @@
 ## Requirement
 1. 以下のバージョンで確認
     1. Version 1.2022.2
-    1. 確認先: PlantUML.[ダウンロード](https://plantuml.com/ja/download)
+    1. 確認先: GitHub.plantuml/plantuml/[releases](https://github.com/plantuml/plantuml/releases)
 
 ## Usage
 1. 使用したいカラーセットを`!include`で取り込む
