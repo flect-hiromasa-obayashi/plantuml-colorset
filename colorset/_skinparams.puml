@@ -7,12 +7,18 @@ skinparam BackgroundColor transparent
 
 skinparam Activity {
   BorderColor $LineColor
+  BackgroundColor $BackGroundColor
   DiamondBorderColor $LineColor
+  DiamondBackgroundColor $BackGroundColor
   BarColor $LineColor
   StartColor $LineColor
   StopColor $LineColor
+}
+
+skinparam Actor {
+  BorderColor $LineColor
   BackgroundColor $BackGroundColor
-  DiamondBackgroundColor $BackGroundColor
+  StereotypeFontColor $LineColor
 }
 
 skinparam Sequence {
@@ -26,10 +32,4 @@ skinparam Sequence {
   LifeLineBackgroundColor $BackGroundColor
   ReferenceBorderColor $LineColor
   ReferenceBackgroundColor $BackGroundColor
-}
-
-skinparam Actor {
-  StereotypeFontColor $LineColor
-  BorderColor $LineColor
-  BackgroundColor $BackGroundColor
 }

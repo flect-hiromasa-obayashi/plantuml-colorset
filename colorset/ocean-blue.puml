@@ -1,3 +1,3 @@
 !$LineColor = "#2260FF"
 !$BackGroundColor = "#E0EAFF"
-!include _skinparams.puml
+!include https://raw.githubusercontent.com/flect-hiromasa-obayashi/plantuml-colorset/main/colorset/_skinparams.puml
