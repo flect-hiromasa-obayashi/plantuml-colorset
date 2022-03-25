@@ -1,0 +1,41 @@
+!$LineBlue = "#2260FF"
+!$BackGroundBlue = "#E0EAFF"
+
+skinparam dpi 100
+skinparam shadowing false
+skinparam DefaultFontName Meiryo
+skinparam ArrowColor $LineBlue
+skinparam DefaultFontColor $LineBlue
+skinparam BackgroundColor transparent
+
+' Activity
+skinparam Activity {
+  BorderColor $LineBlue
+  DiamondBorderColor $LineBlue
+  BarColor $LineBlue
+  StartColor $LineBlue
+  StopColor $LineBlue
+  BackgroundColor $BackGroundBlue
+  DiamondBackgroundColor $BackGroundBlue
+}
+
+' Sequence
+skinparam Sequence {
+  BorderColor $LineBlue
+  BackgroundColor $BackGroundBlue
+}
+skinparam SequenceBox {
+  BorderColor $LineBlue
+  BackgroundColor $BackGroundBlue
+}
+skinparam SequenceReference {
+  BorderColor $LineBlue
+  BackgroundColor $BackGroundBlue
+}
+
+' Usecase
+skinparam Actor {
+  StereotypeFontColor $LineBlue
+  BorderColor $LineBlue
+  BackgroundColor $BackGroundBlue
+}
